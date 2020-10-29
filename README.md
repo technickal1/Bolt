@@ -1,4 +1,4 @@
-# bolt
+# ⚡ Bolt
 
 An AMP-first Ghost theme.
 
