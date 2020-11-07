@@ -10,7 +10,65 @@
     
     {{!-- AMP CSS --}}
     <style amp-custom>
-      
+.tldr-outline {
+  height:100px;
+  margin:.5rem;
+  border:1px solid dodgerblue;
+  border-radius:.5rem;
+}
+
+.tldr-icon {
+  position: relative;
+  top: -12px;
+  left: 10px;
+  padding: 0 .5rem;
+  background: #fff;
+  margin:0;
+  width:60px;
+}
+
+.tldr-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+	border-radius:.5rem;
+	background:#eee;
+  margin-left:1rem;
+  margin-right:1rem;
+  height:60px;
+  overflow:hidden;
+}
+
+.tldr-flex-container > div {
+  text-align: center;
+}
+
+.tldr-text {
+  color:#333;
+  text-transform:uppercase;
+  font-size:1.2em;
+  font-weight:bold;
+  flex-basis:80%;
+}
+
+.tldr-link {
+  text-decoration:none;
+}
+
+.tldr-contain img {
+   object-fit: cover; /* use cover to crop, contain to maintain aspect ratio */
+ }
+
+.fixed-container { /* https://amp.dev/documentation/examples/style-layout/how_to_support_images_with_unknown_dimensions/ */
+  position: relative;
+  width: 100px;
+  height: 60px;
+}
+
+.svg-arrow {
+  margin-right:1rem;
+}
     </style>
     
     {{!-- AMP Boilerplate --}}
