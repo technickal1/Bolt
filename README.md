@@ -1,6 +1,6 @@
 # ⚡ Bolt
 
-An AMP-first Ghost theme.
+AMP-first Ghost theme.
 
 # Copyright & License
 
